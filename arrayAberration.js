@@ -13,7 +13,7 @@ for (i in arr) {
 for (i of arr)
   console.log(i);
 
-
+//This is the most secure option
 arr.forEach(i => {
   console.log(i)
 });
